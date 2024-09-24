@@ -1,0 +1,59 @@
+{
+  "designator": "C2.1",
+  "name": "C-41 Normal",
+  "category": "C41",
+  "expanded_title": " - Kodak",
+  "steps": [
+    {
+      "name": "HEAT",
+      "time": 180,
+      "agitation": "Roll",
+      "compensation": "Off"
+    },
+    {
+      "name": "DEV",
+      "time": 195,
+      "agitation": "Roll",
+      "compensation": "On",
+      "min_temperature": 30,
+      "rated_temperature": 38,
+      "max_temperature": 40,
+      "formula_designator": "2.2.1",
+      "logo_text": "Kodak\nC-41 DEV"
+    },
+    {
+      "name": "BLEA",
+      "time": 380,
+      "agitation": "Roll",
+      "compensation": "On",
+      "min_temperature": 32,
+      "rated_temperature": 38,
+      "max_temperature": 38,
+      "formula_designator": "2.2.2",
+      "logo_text": "Kodak\nC-41 BLEA"
+    },
+    {
+      "name": "RINS",
+      "time": 120,
+      "agitation": "Roll",
+      "compensation": "Off"
+    },
+    {
+      "name": "FIX",
+      "time": 380,
+      "agitation": "Roll",
+      "compensation": "On",
+      "min_temperature": 32,
+      "rated_temperature": 38,
+      "max_temperature": 38,
+      "formula_designator": "2.2.3",
+      "logo_text": "Kodak\nC-41 FIX"
+    },
+    {
+      "name": "RINS",
+      "time": 240,
+      "agitation": "Roll",
+      "compensation": "Off"
+    }
+  ]
+}
