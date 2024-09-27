@@ -23,7 +23,7 @@
     },
     {
       "name": "FIX",
-      "time": 360,
+      "time": 480,
       "agitation": "Roll",
       "compensation": "Mon",
       "min_temperature": 18,
